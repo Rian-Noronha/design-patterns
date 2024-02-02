@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Inserting the fly() method in Duck">
-      <change afterPath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/RubberDuck.java" afterDir="false" />
+    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Inserting others classes">
+      <change afterPath="$PROJECT_DIR$/src/strategy/Flyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Quackable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RubberDuck.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -74,7 +79,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706900199703</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Inserting others classes">
+      <option name="closed" value="true" />
+      <created>1706900764204</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706900764204</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -91,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Inserting the fly() method in Duck" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserting the fly() method in Duck" />
+    <MESSAGE value="Inserting others classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inserting others classes" />
   </component>
 </project>
