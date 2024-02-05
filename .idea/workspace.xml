@@ -4,12 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Inserting others classes">
-      <change afterPath="$PROJECT_DIR$/src/strategy/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Quackable.java" afterDir="false" />
+    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Trying to solve using interface">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/FlyBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/FlyNoWay.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/FlyWithWings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/MuteQuack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Quack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/QuackBehavior.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/Squeak.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategy/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Duck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Flyable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategy/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/MallardDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Quackable.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategy/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RubberDuck.java" afterDir="false" />
     </list>
@@ -21,17 +31,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2bp4HIt3vFWBHvo6RKyoAtPk8bH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -42,7 +57,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master-1",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/rian/IdeaProjects/design-patterns/src/Main.java"
   }
@@ -87,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706900764204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Trying to solve using interface">
+      <option name="closed" value="true" />
+      <created>1706901466340</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1706901466340</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,7 +119,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master-1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -105,6 +141,7 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Inserting the fly() method in Duck" />
     <MESSAGE value="Inserting others classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inserting others classes" />
+    <MESSAGE value="Trying to solve using interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trying to solve using interface" />
   </component>
 </project>

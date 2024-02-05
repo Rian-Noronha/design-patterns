@@ -1,13 +1,16 @@
 package strategy;
 
-public class RubberDuck extends Duck implements Quackable{
+public class RubberDuck extends Duck{
+
+    public RubberDuck(){
+        quackBehavior = new Squeak ();
+        flyBehavior = new FlyNoWay();
+    }
+
     @Override
     public void display() {
         System.out.println("Rubber duck");
     }
 
-    @Override
-    public void quackable() {
 
-    }
 }
