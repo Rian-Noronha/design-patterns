@@ -4,24 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Trying to solve using interface">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/FlyBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/FlyNoWay.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/MuteQuack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Quack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/Squeak.java" afterDir="false" />
+    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Encapsulating what varies">
+      <change afterPath="$PROJECT_DIR$/src/strategy/FlyRocketPowered.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/strategy/ModelDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/strategy/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Flyable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/MallardDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/MallardDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Quackable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/RubberDuck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/RubberDuck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="master-1" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -55,10 +43,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MiniDuckSimulator.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master-1",
+    "git-widget-placeholder": "master-2",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "/home/rian/IdeaProjects/design-patterns/src/Main.java"
   }
@@ -111,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706901466340</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Encapsulating what varies">
+      <option name="closed" value="true" />
+      <created>1707151871996</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1707151871996</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +139,7 @@
     <MESSAGE value="Inserting the fly() method in Duck" />
     <MESSAGE value="Inserting others classes" />
     <MESSAGE value="Trying to solve using interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trying to solve using interface" />
+    <MESSAGE value="Encapsulating what varies" />
+    <option name="LAST_COMMIT_MESSAGE" value="Encapsulating what varies" />
   </component>
 </project>
