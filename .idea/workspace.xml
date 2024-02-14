@@ -4,12 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Encapsulating what varies">
-      <change afterPath="$PROJECT_DIR$/src/strategy/FlyRocketPowered.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/strategy/ModelDuck.java" afterDir="false" />
+    <list default="true" id="ea22779d-e570-427e-bd2e-92a5965fcf0b" name="Changes" comment="Conclusion">
+      <change afterPath="$PROJECT_DIR$/src/observer/WeatherData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/Duck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/Duck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/DecoyDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Duck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/FlyBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/FlyNoWay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/FlyRocketPowered.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/FlyWithWings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/MallardDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/MiniDuckSimulator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/ModelDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/MuteQuack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Quack.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/QuackBehavior.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/RedHeadDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/RubberDuck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/strategy/Squeak.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master-1" />
+        <entry key="$PROJECT_DIR$" value="master-2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,17 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.MiniDuckSimulator.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master-2",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/rian/IdeaProjects/design-patterns/src/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.MiniDuckSimulator.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master-3&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rian/IdeaProjects/design-patterns&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/rian/IdeaProjects/design-patterns/src/Main.java&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -108,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707151871996</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Conclusion">
+      <option name="closed" value="true" />
+      <created>1707154776283</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707154776283</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,7 +143,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master-1" />
+                        <option value="origin/master-3" />
                       </list>
                     </value>
                   </entry>
@@ -140,6 +161,7 @@
     <MESSAGE value="Inserting others classes" />
     <MESSAGE value="Trying to solve using interface" />
     <MESSAGE value="Encapsulating what varies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Encapsulating what varies" />
+    <MESSAGE value="Conclusion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Conclusion" />
   </component>
 </project>
